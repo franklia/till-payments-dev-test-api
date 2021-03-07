@@ -21,7 +21,7 @@ describe('CustomersController', () => {
   });
 
   // This test is similar to what can be seen in NestJS documentation, however this
-  // seems a bit off because we are comparing a mock to a mock without running it via any
+  // seems a bit flawed because we are comparing a mock to a mock without running it via any
   // other code. I'm think you you might simply write unit tests for the services
   // and use Cypress testing for everything else.
   describe('findAll', () => {
